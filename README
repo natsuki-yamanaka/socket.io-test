@@ -1,1 +1,22 @@
-"first github repository" 
+depends on node.js@0.8.21
+depends on socket.io@0.9.11
+
+run command
+
+node socket_io_server.js
+
+access http://localhost:20082/logger_socket_io
+
+then other terminal
+
+node emit.js
+
+
+then access http://localhost:20082/logger_socket_io
+
+
+compare
+
+
+
+io.namespaces[''].sockets[socket.id] is still them.
