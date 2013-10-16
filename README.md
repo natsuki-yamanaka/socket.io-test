@@ -12,9 +12,9 @@ node socket_io_server.js 20082
 
 node socket_io_server.js 20083
 
-* then access
-http://localhost:20082/logger_socket_io  
-http://localhost:20083/logger_socket_io
+* then access  
+[http://localhost:20082/logger_socket_io](http://localhost:20082/logger_socket_io "http://localhost:20082/logger_socket_io")  
+[http://localhost:20083/logger_socket_io](http://localhost:20083/logger_socket_io "http://localhost:20083/logger_socket_io")
 
 
 * then run from other terminal
@@ -22,9 +22,10 @@ http://localhost:20083/logger_socket_io
 node emit.js
 	
 
-* then access
-http://localhost:20082/logger_socket_io  
-http://localhost:20083/logger_socket_io
+* then access  
+[http://localhost:20082/logger_socket_io](http://localhost:20082/logger_socket_io "http://localhost:20082/logger_socket_io")  
+[http://localhost:20083/logger_socket_io](http://localhost:20083/logger_socket_io "http://localhost:20083/logger_socket_io")
+
 
 ***
 
