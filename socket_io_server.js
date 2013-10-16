@@ -1,6 +1,6 @@
 /*!
  * socket.io-test
- * Copyright(c) 2013 natsuki-yamanaka <natsuki-yamanaka@trifort.jp>
+ * Copyright(c) 2013 natsuki-yamanaka <natsukiyamanakafor@gmail.com>
  * MIT Licensed
  */
 //---------------------------------------------------------------------------------//
