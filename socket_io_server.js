@@ -88,15 +88,12 @@ io.sockets.on('connection', function(socket){
 		fs.readFile(FILE, {encoding:'utf8'}, function (err, read_data) {
 			if(err) throw err;
 			
-			//3 seconds wait
-//			Sleep(3);
-			
 			console.log('data = '+read_data.toString());
-//			io.sockets.socket(socket.id).emit(event, read_data.toString());
+			io.sockets.socket(socket.id).emit(event, read_data.toString());
 			//patch
-			if(io.sockets.sockets[socket.id]){
-				io.sockets.socket(socket.id).emit(event, read_data.toString());
-			}
+//			if(io.sockets.sockets[socket.id]){
+//				io.sockets.socket(socket.id).emit(event, read_data.toString());
+//			}
 		});
 	};
 
